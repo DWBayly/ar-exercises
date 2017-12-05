@@ -9,4 +9,4 @@ puts "----------"
 @store2 = Store.find(2)
 @store1.annual_revenue = 100000000
 @store1.save
-binding.pry
+
