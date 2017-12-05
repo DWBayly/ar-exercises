@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+sname = gets.chomp
+x= Store.create(name:sname);
+puts x
